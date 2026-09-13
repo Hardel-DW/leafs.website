@@ -151,7 +151,14 @@ const LIST: Mod[] = [
     works("LaserIO"),
     works("Lithostitched"),
     works("LogisticsNetworks"),
-    works("LootR"),
+    {
+        name: "LootR",
+        status: "partial",
+        note: {
+            fr: "Les coffres reste ceux vanilla sans crash/erreur ou de probléme en jeu, fixes en cours",
+            en: "Chests remain vanilla without crash/error or game issue, fixes in progress"
+        }
+    },
     works("Luminax"),
     works("Macaw's Bridges"),
     works("Macaw's Doors"),
@@ -199,14 +206,7 @@ const LIST: Mod[] = [
     works("Productive Trees"),
     works("Pylons"),
     works("QuarryPlus"),
-    {
-        name: "Railcraft Reborn",
-        status: "broken",
-        note: {
-            fr: "Crash serveur. Bug de Leafs sur les game events, pas de Railcraft.",
-            en: "Server crash. Leafs bug on game events, not Railcraft's."
-        }
-    },
+    works("Railcraft Reborn"),
     works("Refined Construction Sticks"),
     works("Refined Fluid Substitution"),
     works("Refined Storage"),
@@ -239,7 +239,14 @@ const LIST: Mod[] = [
     works("Super Factory Manager"),
     works("Tectonic"),
     works("Terralith"),
-    works("The Undergarden"),
+    {
+        name: "The Undergarden",
+        status: "broken",
+        note: {
+            fr: "Crash serveur. Correction en cours, liés aux sytémes d'emprunt",
+            en: "Server crash. Fix in progress, related to borrowing systems"
+        }
+    },
     works("Theurgy"),
     works("Theurgy KubeJS"),
     works("Titanium"),
