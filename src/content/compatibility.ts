@@ -155,8 +155,8 @@ const LIST: Mod[] = [
         name: "LootR",
         status: "partial",
         note: {
-            fr: "Les coffres reste ceux vanilla sans crash/erreur ou de probléme en jeu, fixes en cours",
-            en: "Chests remain vanilla without crash/error or game issue, fixes in progress"
+            fr: "Les coffres LootR fonctionne, juste un warning sans conséquence.",
+            en: "LootR chests work, just a warning without consequence."
         }
     },
     works("Luminax"),
@@ -239,14 +239,7 @@ const LIST: Mod[] = [
     works("Super Factory Manager"),
     works("Tectonic"),
     works("Terralith"),
-    {
-        name: "The Undergarden",
-        status: "broken",
-        note: {
-            fr: "Crash serveur. Correction en cours, liés aux sytémes d'emprunt",
-            en: "Server crash. Fix in progress, related to borrowing systems"
-        }
-    },
+    works("The Undergarden"),
     works("Theurgy"),
     works("Theurgy KubeJS"),
     works("Titanium"),
